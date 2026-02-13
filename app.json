@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "solscan-lite-with-expo-router",
-    "slug": "solscan-lite-with-expo-router",
+    "name": "solscan-lite",
+    "slug": "solscan",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "solscanlitewithexporouter",
+    "scheme": "solscan",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
