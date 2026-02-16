@@ -7,7 +7,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 const explore = () => {
   const router = useRouter();
   return (
-    <SafeAreaView style={s.container}>
+    <SafeAreaView style={s.safe}>
       <TouchableOpacity style={s.backButton} onPress={() => router.back()}>
         <Ionicons name="arrow-back" size={24} color="#fff" />
         <Text style={s.backText}>Back</Text>
@@ -21,11 +21,14 @@ const explore = () => {
 export default explore;
 
 const s = StyleSheet.create({
+  safe: {
+    flex: 1,
+    backgroundColor: "#0D0D12",
+  },
   container: {
     flex: 1,
-    backgroundColor: "#0B0F1A",
-    paddingTop: 30,
-    paddingHorizontal: 16,
+    paddingHorizontal: 24,
+    paddingTop: 16,
   },
   title: {
     fontSize: 24,

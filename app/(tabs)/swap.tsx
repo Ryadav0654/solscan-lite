@@ -108,7 +108,7 @@ export default swap;
 const s = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#0B0F1A",
+    backgroundColor: "#0D0D12",
   },
   scroll: {},
   content: {
